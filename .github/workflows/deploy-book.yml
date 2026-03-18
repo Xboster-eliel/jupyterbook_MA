@@ -32,7 +32,7 @@ jobs:
 
       - name: Build book
         working-directory: book_test
-        run: jupyter-book build .
+        run: jupyter-book build
 
       - name: Deploy to gh-pages branch
         uses: JamesIves/github-pages-deploy-action@v4
