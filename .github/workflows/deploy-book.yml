@@ -34,8 +34,9 @@ jobs:
         run: jupyter-book build book_test
 
       - name: Deploy to gh-pages branch
-        uses: peaceiris/actions-gh-pages@v4
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: book_test/_build/html
-          force_orphan: true
+          branch: gh-pages
+          folder: book_test/_build/html
+          clean: true
+          single-commit: true
