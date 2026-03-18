@@ -31,7 +31,8 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build book
-        run: jupyter-book build book_test
+        working-directory: book_test
+        run: jupyter-book build .
 
       - name: Deploy to gh-pages branch
         uses: JamesIves/github-pages-deploy-action@v4
