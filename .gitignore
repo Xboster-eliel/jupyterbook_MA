@@ -1,0 +1,34 @@
+# Python environments
+.venv/
+**/.venv/
+
+# Build artifacts
+_build/
+**/_build/
+
+# Logs
+logs/
+*.log
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large scientific data
+*.nc
+*.nc.gz
+*.h5
+*.hdf5
+*.grib
+*.grb
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Node artifacts
+node_modules/
+**/node_modules/

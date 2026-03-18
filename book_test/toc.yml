@@ -1,0 +1,17 @@
+version: 1
+project:
+  toc:
+    - file: index.md
+    - file: content/capitulo-1-actividad-1.md
+      children:
+        - file: content/definitions.md
+        - file: content/tarea-1-agregacion-temporal-co2.md
+        - file: content/Resultados_Discusion_MaunaLoa.md
+        - file: notebooks/Guia_practica_MaunaLoa_NOAA.ipynb
+        - file: content/tarea-1-agregacion-espacial-global.md
+        - file: content/Resultados_Discusion_temperatura_global.md
+        - file: notebooks/Guia_practica_GISTEMP.ipynb
+        - file: content/tarea-1-modelos-lineales-vs-procesos.md
+        - file: content/Resultados_Discusion_Modelos_linealesVSprocesos.md
+        - file: notebooks/Guia_practica_Modelos_linealesVSprocesos.ipynb
+    - file: content/capitulo-2-modelo-conceptual-inundacion-regional.md
