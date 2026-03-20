@@ -32,12 +32,14 @@ jobs:
 
       - name: Build book
         working-directory: Temas/series_tiempo
-        run: jupyter-book build --execute
+        env:
+          BASE_URL: /jupyterbook_MA
+        run: jupyter-book build --html --execute
 
       - name: Deploy to gh-pages branch
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: Temas/series_tiempo/_build/site/public
+          folder: Temas/series_tiempo/_build/html
           clean: true
           single-commit: true
