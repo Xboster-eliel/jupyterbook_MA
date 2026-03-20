@@ -1,0 +1,23 @@
+version: 1
+project:
+  toc:
+    - file: index.md
+    - file: content/capitulo-1-actividad-1.md
+      children:
+        - file: content/definitions.md
+        - file: content/inciso-1-mlp-series-tiempo.md
+        - file: content/resolucion-inciso-1-mlp-series-tiempo.md
+        - file: notebooks/mlp_series_tiempo_nueva_york.ipynb
+        - file: content/inciso-2-redes-profundas-series-univariadas.md
+        - file: content/resolucion-inciso-2-redes-profundas-series-univariadas.md
+        - file: notebooks/redes_profundas_eth_univariada.ipynb
+        - file: content/inciso-3-redes-convolucionales-series-tiempo.md
+        - file: content/resolucion-inciso-3-redes-convolucionales-series-tiempo.md
+        - file: notebooks/redes_convolucionales_sp500.ipynb
+    - file: content/capitulo-2-imputando-series-de-precipitacion-mensual.md
+      children:
+        - file: content/definitions-capitulo-2.md
+        - file: content/protocolo-metodologico-capitulo-2.md
+        - file: content/inciso-1-imputacion-series-precipitacion.md
+        - file: content/resolucion-inciso-1-imputacion-series-precipitacion.md
+        - file: notebooks/imputacion_series_precipitacion_mensual.ipynb

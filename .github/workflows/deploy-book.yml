@@ -31,13 +31,13 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build book
-        working-directory: book_test
-        run: jupyter-book build
+        working-directory: Temas/series_tiempo
+        run: jupyter-book build --execute
 
       - name: Deploy to gh-pages branch
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: book_test/_build/site/public
+          folder: Temas/series_tiempo/_build/site/public
           clean: true
           single-commit: true

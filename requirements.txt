@@ -2,7 +2,14 @@ jupyter-book==2.1.2
 ipykernel==7.2.0
 numpy
 pandas
-xarray
 matplotlib
+plotly
+statsmodels
+scikit-learn
+scikeras
+tensorflow
+arch
+openpyxl
+xarray
 netCDF4
 h5netcdf

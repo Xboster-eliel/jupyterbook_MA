@@ -1,0 +1,11 @@
+version: 1
+project:
+  id: 8b58b1d9-99b6-4ba0-96ba-f8c728fbc3a6
+  title: Series de tiempo
+  description: Replicacion del material 3_MLP con Jupyter Book
+
+extends:
+  - toc.yml
+
+site:
+  template: book-theme
